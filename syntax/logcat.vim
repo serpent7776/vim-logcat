@@ -1,7 +1,10 @@
 " Vim syntax file
 " Language:         logcat
-" Maintainer:       Naseer Ahmed <naseer.ahmed@gmail.com>
-" Latest Revision:  2009-08-10
+" Maintainer:       Serpent7776 <serpent7776@gmail.com>
+" Latest Revision:  2015-08-26
+"
+" This was derived from logcat syntax highlighter by Naseer Ahmed
+" http://www.vim.org/scripts/script.php?script_id=2735
 
 if exists("b:current_syntax")
     finish
