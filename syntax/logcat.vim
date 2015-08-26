@@ -18,12 +18,12 @@ hi def LogI_color ctermfg=grey guifg=grey
 hi def LogD_color ctermfg=darkcyan guifg=darkcyan
 hi def LogV_color ctermfg=grey guifg=grey
 
-syn match LogF 'F/.*'
-syn match LogE 'E/.*'
-syn match LogW 'W/.*'
-syn match LogI 'I/.*'
-syn match LogD 'D/.*'
-syn match LogV 'V/.*'
+syn match LogF '\<F/.*'
+syn match LogE '\<E/.*'
+syn match LogW '\<W/.*'
+syn match LogI '\<I/.*'
+syn match LogD '\<D/.*'
+syn match LogV '\<V/.*'
 
 hi def link LogF LogF_color
 hi def link LogE LogE_color
