@@ -15,12 +15,12 @@ hi def LogI_color ctermfg=blue guifg=blue
 hi def LogD_color ctermfg=darkgreen guifg=darkgreen
 hi def LogV_color ctermfg=gray guifg=gray
 
-syn match LogF 'F/.*' 
-syn match LogE 'E/.*' 
-syn match LogW 'W/.*' 
-syn match LogI 'I/.*' 
-syn match LogD 'D/.*' 
-syn match LogV 'V/.*' 
+syn match LogF 'F/.*'
+syn match LogE 'E/.*'
+syn match LogW 'W/.*'
+syn match LogI 'I/.*'
+syn match LogD 'D/.*'
+syn match LogV 'V/.*'
 
 hi def link LogF LogF_color
 hi def link LogE LogE_color
